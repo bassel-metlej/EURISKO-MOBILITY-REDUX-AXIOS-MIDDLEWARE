@@ -1,0 +1,21 @@
+.full__widthlogin {
+    border-radius: 20px;
+    border: 1px solid blue !important;
+    height: auto;
+}
+
+
+
+@media (max-width: 1000px) {
+    .input_font {
+        font-size: 14px !important;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .input_font {
+        font-size: 11px !important;
+    }
+}
+

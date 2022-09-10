@@ -1,0 +1,17 @@
+.ShareLearnButton{
+    font-size: 15px !important;
+    line-height: 13px !important;
+}
+
+.typo {
+    height:100px;
+    overflow-y: scroll;
+
+}
+
+/* .ll{
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+} */

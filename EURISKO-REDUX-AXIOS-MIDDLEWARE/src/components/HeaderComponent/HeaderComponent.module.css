@@ -1,0 +1,70 @@
+.parent_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.logout_Style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.full__widthlogin {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid blue !important;
+    height: 30px !important;
+}
+
+@media (min-width: 1000px) {
+    .search_font {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: transparent url(../../assets/icons/download.png) no-repeat right 1.2rem center/0.8rem 4rem;
+        background-size: 25px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .search_font {
+        font-size: 14px;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: transparent url(../../assets/icons/download.png) no-repeat right 1.2rem center/0.8rem 4rem;
+        background-size: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    .search_font {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: transparent url(../../assets/icons/download.png) no-repeat right 1.2rem center/0.8rem 4rem;
+        background-size: 13px;
+        font-size: 10px !important;
+    }
+
+    .full__widthlogin {
+        width: 100%;
+        border-radius: 20px;
+        border: 1px solid blue !important;
+        height: 24px !important;
+    }
+
+    
+}
+
+.image_style {
+    width: "30px";
+}
+
+
+
+
+

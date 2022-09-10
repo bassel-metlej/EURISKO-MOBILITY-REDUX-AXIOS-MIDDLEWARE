@@ -1,0 +1,80 @@
+@media (min-width: 1100px) {
+    .button_style {
+        width: "100%";
+        font-size: 22px !important;
+        line-height: 15px !important;
+        height: 30px !important;
+    }
+}
+
+@media (min-width: 600px) {
+    .button_style {
+        width: "100%";
+        font-size: 9px !important;
+        line-height: 10px !important;
+        height: 30px !important;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .button_style {
+        width: "100%";
+        font-size: 6px !important;
+        line-height: 10px !important;
+        height: 24px !important;
+    }
+
+
+    .Parent_Button_Radius {
+        border-radius: 12px !important;
+        border: 1px solid blue !important;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+
+        /* font-size: 12px; */
+    }
+}
+
+@media (max-width: 400px) {
+    .button_style {
+        width: "100%";
+        font-size: 6px !important;
+        line-height: 10px !important;
+        height: 24px !important;
+    }
+
+
+    .Parent_Button_Radius {
+        border-radius: 10px !important;
+        border: 1px solid blue !important;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+
+        /* font-size: 12px; */
+    }
+}
+
+.Parent_Button {
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.Parent_Button_Radius {
+    border-radius: 20px;
+    border: 1px solid blue !important;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+
+    /* font-size: 12px; */
+}
+
+.Parent_Button :hover {
+    background-color: blue;
+    color: white;
+}

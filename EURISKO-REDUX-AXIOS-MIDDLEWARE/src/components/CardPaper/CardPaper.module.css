@@ -1,0 +1,9 @@
+
+    .card {
+      justify-content: center;
+      padding: 30px;
+      box-shadow: 4px 4px 7px 1px rgba(0, 0, 0, 10%) !important;
+      border-radius: 15px !important;
+      margin: auto;
+    }
+  

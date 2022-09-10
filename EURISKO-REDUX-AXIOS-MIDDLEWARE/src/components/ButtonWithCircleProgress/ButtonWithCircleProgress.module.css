@@ -1,0 +1,37 @@
+@media (min-width: 800px) {
+    .button_style {
+        width: "100%";
+        font-size: 18px;
+
+    }
+}
+
+
+@media (max-width: 800px) {
+    .button_style {
+        width: "100%";
+        font-size: 10px !important;
+    }
+}
+
+
+.Parent_Button {
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.Parent_Button_Radius {
+    border-radius: 20px;
+    border: 1px solid blue !important;
+    height: 35px !important;
+    align-items: center;
+    justify-content: center;
+    
+    /* font-size: 12px; */
+}
+
+.Parent_Button  :hover {
+    background-color: blue;
+    color: white;
+}   

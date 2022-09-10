@@ -1,0 +1,43 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+
+:root {
+  --main-color: #ff4545;
+  --second-color: #ffdcdc;
+  --third-color: #741327;
+}
+/* @font-face {
+  font-family: "light"; /Can be any text/
+  src: local("segoeui"), url("./fonts/segoeui.ttf") format("truetype");
+}
+@font-face {
+  font-family: "bbold"; /Can be any text/
+  src: local("seguibl"), url("./fonts/seguibl.ttf") format("truetype");
+}
+@font-face {
+  font-family: "semibold"; /Can be any text/
+  src: local("seguisb"), url("./fonts/seguisb.ttf") format("truetype");
+} */
+
+.active-class {
+  color: var(--main-color);
+}
+.not-active-class {
+  color: black;
+}
